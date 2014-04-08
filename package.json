@@ -1,7 +1,7 @@
 {
-  "name": "onetime",
+  "name": "sindresorhus-onetime",
+  "description": "Only call a function once",
   "version": "0.1.0",
-  "description": "Only call a function once. Unlike the module `once`, this one isn't naughty extending `Function.prototype`.",
   "keywords": [
     "once",
     "one",
@@ -10,24 +10,7 @@
     "function",
     "prevent"
   ],
-  "license": "MIT",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "files": [
-    "onetime.js"
-  ],
   "main": "onetime.js",
-  "repository": "sindresorhus/onetime",
-  "scripts": {
-    "test": "mocha"
-  },
-  "devDependencies": {
-    "mocha": "~1.x"
-  },
-  "engines": {
-    "node": ">=0.8.0"
-  }
+  "dependencies": {},
+  "license": "MIT"
 }
